@@ -2,7 +2,7 @@
 
 import RideSelector from '@/components/confirmSection/RideSelector';
 import Map from '@/components/Map'
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 
 export default function Confirm() {

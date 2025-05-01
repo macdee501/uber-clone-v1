@@ -1,7 +1,6 @@
 import MainSection from "@/components/mainSection/MainSection";
 import Map from "@/components/Map";
-import Image from "next/image";
-import tw from "tailwind-styled-components"
+
 
 
 

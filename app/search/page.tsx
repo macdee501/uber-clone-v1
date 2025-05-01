@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 import { CiCirclePlus, CiStar } from 'react-icons/ci'
 import { PiLineVertical } from 'react-icons/pi'
