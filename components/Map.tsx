@@ -49,7 +49,8 @@ export default function Map({pickupPoint,dropofPoint}) {
     // add marker to map function
     function addToMap(map,coordinates)
     {
-        const marker1 = new mapboxgl.Marker().setLngLat(coordinates).addTo(map);
+        // const marker1 = new mapboxgl.Marker().setLngLat(coordinates).addTo(map);
+         new mapboxgl.Marker().setLngLat(coordinates).addTo(map);
        
     }
 
