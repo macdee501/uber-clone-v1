@@ -2,15 +2,12 @@
 
 import RideSelector from '@/components/confirmSection/RideSelector';
 import Map from '@/components/Map'
-// import { useRouter } from 'next/router';
 import { useRouter, useSearchParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 
 export default function Confirm() {
 
 
-      const router = useRouter();
-    //   const {pickup, dropof}= router.query;
 
       const searchParams = useSearchParams()
 
