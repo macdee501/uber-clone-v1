@@ -8,7 +8,6 @@ import { VscArrowLeft, VscCircle, VscCircleFilled } from 'react-icons/vsc'
 
 export default function Search() {
 
-  const router = useRouter();
 
 
 

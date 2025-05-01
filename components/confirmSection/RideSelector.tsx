@@ -9,7 +9,7 @@ export default function RideSelector({pickupPoint,dropofPoint}) {
 
 // Get ride duration from map box api
     useEffect(()=> {
-    rideDuration = fetch(`https://api.mapbox.com/directions/v5/mapbox/driving/${pickupPoint[0]},${pickupPoint[1]};${dropofPoint[0]},${dropofPoint[1]}?access_token=pk.eyJ1IjoibWFjZGVlNTAxIiwiYSI6ImNtYTBzc2QzOTB6cG0ycHBleDZseHF4eGQifQ.BcciGZZoSWk_KwtPswcONg`)
+         rideDuration = fetch(`https://api.mapbox.com/directions/v5/mapbox/driving/${pickupPoint[0]},${pickupPoint[1]};${dropofPoint[0]},${dropofPoint[1]}?access_token=pk.eyJ1IjoibWFjZGVlNTAxIiwiYSI6ImNtYTBzc2QzOTB6cG0ycHBleDZseHF4eGQifQ.BcciGZZoSWk_KwtPswcONg`)
     .then((res)=> res.json())
     .then(data => {
         setRideDuration(data.routes[0].duration/100)
