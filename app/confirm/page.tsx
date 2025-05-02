@@ -20,7 +20,7 @@ export default function Confirm() {
     const [dropofCoordinats,setDropofCoordinates] = useState([0,0]);
 
     // get Geo coordinats function 
-    function getPickupCoordinates(pickup)
+    function getPickupCoordinates(pickup:number)
     {
 
         fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${pickup}.json?`+ new URLSearchParams({
@@ -43,7 +43,7 @@ export default function Confirm() {
 
     }
 
-    function getDropofCoordinates(dropOf)
+    function getDropofCoordinates(dropOf:number)
     {
 
         fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${dropOf}.json?`+ new URLSearchParams({
